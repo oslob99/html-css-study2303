@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* 인접 형제 선택자 */
+        .orange + li { 
+            /* 형이 클래스 오렌지인 li */
+            color: orangered;
+        }
+        li + li {
+            font-size: 24px;
+        }
+        /* 일반 형제 선택자 */
+        .red ~ li {
+            /* 형이 클래스 red인 li 전부 */
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li class="orange">어린쥐</li>
+        <li>사과</li>
+        <li>딸기</li>
+        <li class="orange">오렌지</li>
+        <li class="red">자몽</li>
+        <li>포도</li>
+        <li>한라봉</li>
+        <li>바나나</li>
+        <li>샤인머스캣</li>
+    </ul>
+
+
+</body>
+</html>
