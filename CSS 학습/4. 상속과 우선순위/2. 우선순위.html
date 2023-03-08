@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            /* color: blue !important; */
+        }
+        #c-y{
+            color: yellow;
+        }
+        .c-g{
+            color: green;
+        }
+        body{
+            color: aqua;
+        }
+        div{
+            color: red;
+        }
+
+        /* 1점 */
+        h1 { 
+            color: lightcoral;
+        }
+        /* 11점(10 + 1) */
+        .bbb h1{
+            color: orangered;
+        }
+        /* 101 (100 + 1) */
+        #aaa h1 {
+            color: gray;
+        }
+        /* 112 (100 + 1 + 10 + 1) */
+        #aaa div.bbb h1{
+            color: greenyellow;
+        }
+        /* 111 (100 + 10 + 1) */
+        #aaa .bbb h1{
+            color: tomato;
+        }
+        /* 12 (1 + 10 + 1) */
+        div.bbb > h1{
+            color: violet;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- #c-y.c-g{하이루} -->
+    <div
+        id="c-y"
+        class="c-g"
+        style="color: orange;"
+        >하이루1</div>
+
+        <div
+        id="c-y"
+        class="c-g"
+        >하이루2</div>
+
+        <div class="c-g">하이루3</div>
+
+        <div>하이루4</div>
+
+        <p>할루5</p>
+
+        <hr>
+
+        <div id="aaa">
+            <div class="bbb">
+                <h1>할루6</h1>
+            </div>
+        </div>
+</body>
+</html>
