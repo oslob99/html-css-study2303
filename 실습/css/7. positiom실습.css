@@ -1,0 +1,70 @@
+@import url(../../common.css);
+
+#wrapper{
+    width: 600px;
+    background: rgb(95, 94, 94);
+    margin: 10px auto 0;
+    padding: 0 40px 40px;
+}
+#wrapper header h1{
+    background-color: midnightblue;
+    font-weight: 700;
+    color: rgb(163, 163, 4);
+    padding: 10px;
+    text-align: center;
+}
+#wrapper header h1 strong{
+    color: #fff;
+    font-weight: 800;
+    font-size: 2.4em;
+}
+#wrapper header h1 span{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+#wrapper header h1 em{
+    font-size: 1.8em;
+    color: silver;
+    font-weight: 700;
+}
+#wrapper .container{
+
+}
+#wrapper .container .menu{
+    background: silver;
+    width: 20%;
+    height: 370px;
+    float: left;
+    text-decoration: underline;
+    padding: 10px;
+    font-size: 0.6em;
+}
+#wrapper .container .menu li {
+    margin: 10px 15px 5px 0;
+    line-height: 1.3;
+}
+#wrapper .container .content{
+    background: #fff;
+    width: 80%;
+    height: 370px;
+    float: right;
+}
+#wrapper .container .content h2{
+    background-color: darkred;
+    color: yellow;
+    font-size: 1.1em;
+    padding: 10px;
+    font-weight: 600;
+}
+#wrapper .container .content p{
+    padding: 15px;
+    font-size: 0.5em;
+    line-height: 1.3;
+}
+
+#wrapper footer{
+    background-color: gray;
+    font-size: 0.5em;
+    padding: 10px;
+    text-indent: 7px;
+}

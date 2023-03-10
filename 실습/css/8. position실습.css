@@ -1,0 +1,130 @@
+@import url(../../common.css);
+
+#wrapper{
+    width: 800px;
+    background-color: gray;
+    padding: 0 30px 20px;
+    margin: 0 auto;
+}
+#wrapper header{
+    background-color: sandybrown;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 20px;
+}
+#wrapper header h1{
+    width: 415px;
+    font-size: 3.5em;
+    margin: 0 20% 10px;
+    line-height: 0.5;
+    text-align: justify;
+}
+#wrapper header h1 span{
+    font-size: 0.2em;
+    display: inline-block;
+}
+#wrapper header h2{
+    width: 100%;
+    background-color: silver;
+    font-size: 0.1em;
+    color: #000;
+    font-weight: normal;
+    padding: 2px;
+}
+#wrapper .container{
+    background-color: #fff;
+}
+#wrapper .container .side-menu{
+    width: 20%;
+    float: left;
+    background: #fff;
+}
+#wrapper .container .side-menu h3{
+    font-weight: 600;
+    background-color: brown;
+    font-size: 0.7em;
+    padding: 5px;
+}
+#wrapper .container .side-menu ul li{
+    text-decoration: underline;
+    font-size: 0.6em;
+    font-weight: 600;
+    margin: 10px 5px;
+}
+
+#wrapper .container .main-content{
+    width: 60%;
+    float: left;
+    background: rgb(216, 216, 216);
+    padding: 10px;
+}
+#wrapper .container .main-content .art-piece{
+    color: midnightblue;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 10px 0;
+}
+#wrapper .container .main-content .art-piece:last-child{
+    margin-bottom: 0;
+}
+#wrapper .container .main-content .art-piece .title{
+    background-color: midnightblue;
+    color: #fff;
+    padding: 5px;
+}
+#wrapper .container .main-content .art-piece .artist{
+    margin: 10px 0;
+}
+#wrapper .container .main-content .art-piece .detail{
+    font-size: 0.0001em;
+}
+
+#wrapper .container .banner{
+    width: 20%;
+    float: left;
+    font-size: 0.4em;
+    font-weight: 700;
+}
+#wrapper .container .banner h3{
+    font-size: 2em;
+    padding: 5px;
+    line-height: 1.5;
+}
+#wrapper .container .banner h3 .all{
+    text-decoration: underline;
+    color: gray;
+}
+#wrapper .container .banner h3 .love{
+    display: inline-block;
+    text-decoration: underline;
+    color: coral;
+}
+
+#wrapper .container .banner h3 strong{
+    display: inline-block;
+}
+#wrapper .container .banner .link{
+    padding: 5px;
+}
+#wrapper .container .banner .link li{
+    margin: 10px 0;
+}
+#wrapper .container .banner .link li a{
+    text-decoration: underline;
+    display: inline-block;
+}
+#wrapper .container .banner .link li span{
+    display: block;
+}
+
+
+
+#wrapper footer{
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.4em;
+    background: midnightblue;
+    padding: 5px;
+    text-align: center;
+}
